@@ -92,7 +92,7 @@ catch (exception &X){
 void abrir_archivo(){
 	ifstream archivo;
 	archivo.open("EMPLEADOS_NUEVOS.txt",ios::in);
-	int codigo[10];
+	int codigo;
 	char nombre;
 	char puesto;
 	char departamento;
